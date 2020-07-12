@@ -1,21 +1,21 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "an app to generate a readme.md using command line prompts",
+  "description": "Conveniently generate a professional readme using command line prompts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benson-coelho/readme-generator.git"
+    "url": "git+https://github.com/bdcoelho/readme-generator.git"
   },
-  "author": "benson coelho",
-  "license": "ISC",
+  "author": "Benson Coelho",
+  "license": "None",
   "bugs": {
     "url": "https://github.com/benson-coelho/readme-generator/issues"
   },
-  "homepage": "https://github.com/benson-coelho/readme-generator#readme",
+  "homepage": "https://github.com/bdcoelho/readme-generator#readme",
   "dependencies": {
     "inquirer": "^7.3.0"
   }
