@@ -102,10 +102,13 @@ function readmeGen(userInputs) {
 
   ## Table of Contents\n
   * [Description](#Description)
+  * [Demonstration](#Demonstration)
   * [Setup](#Setup)
   * [Usage](#Usage)
   * [License](#License)
+  * [Contributions](#Contributions)
   * [Version](#Version)
+  * [Questions](#Questions)
 
 
   ## Description\n

@@ -13,10 +13,13 @@
   ## Table of Contents
 
   * [Description](#Description)
+  * [Demonstration](#Demonstration)
   * [Setup](#Setup)
   * [Usage](#Usage)
   * [License](#License)
+  * [Contributions](#Contributions)
   * [Version](#Version)
+  * [Questions](#Questions)
 
 
   ## Description
