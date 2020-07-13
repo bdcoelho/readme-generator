@@ -26,7 +26,7 @@
 
   ## Demonstration
 
-  View a live demonstration [here]("https://www.youtube.com/embed/zk3hq5gjibU")
+  View a live demonstration [here](https://www.youtube.com/embed/zk3hq5gjibU)
 
   ## Setup
 
