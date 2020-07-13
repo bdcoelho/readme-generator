@@ -26,7 +26,7 @@
 
   ## Demonstration
 
-  View a live demonstration [here](./assets/img/demo.mp4)
+  View a live demonstration [here](https://www.youtube.com/watch?v=zk3hq5gjibU&feature=youtu.be).
 
   ## Setup
 
