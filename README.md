@@ -30,16 +30,21 @@
 
   ## Demonstration
 
-  View a live demonstration [here](https://drive.google.com/file/d/1et8jWJ54F7A30qmXfTaqpxLpw_9elETJ/view?usp=sharing).
+  View a live demonstration [here](https://www.youtube.com/watch?v=zk3hq5gjibU&feature=youtu.be).
+
+  #### A screenshot of the typical terminal workflow.
+
+  ![Terminal Prompt](./assets/img/screenshot.png "Terminal Prompt")
+
 
   ## Setup
 
-  Use git clone with either HTTPS or SSH key (if you have it set up) to clone the repository. Run 'npm install' to install required packages.
+    Use git clone with either HTTPS or SSH key (if you have it set up) to clone the repository. Run 'npm install' to install required packages.
 
 
   ## Usage
 
-  When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+    When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
 
 
   ## License
@@ -50,15 +55,18 @@
 
   ## Contributions
 
-  Users wishing to contribute may make a pull request explaining the improvements or fixes. I will review and approve them as necessary.
+    When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+
+
 
   ## Version
 
   ![Version Badge](https://img.shields.io/badge/version-1.0-red)
 
+
   ## Tests
 
-  No tests currently available.
+    No tests currently available.
 
   ## Questions
 
