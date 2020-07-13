@@ -55,6 +55,10 @@
   ![Version Badge](https://img.shields.io/badge/version-1.0-red)
 
 
+  ## Questions
+
+  If you have further questions or would like to see more features, please contact me via github or email:
+
   https://github.com/bdcoelho 
 
   ben_coelho@hotmail.com

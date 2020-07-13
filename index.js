@@ -139,6 +139,9 @@ function readmeGen(userInputs) {
     userInputs.version
   }-red)\n
 
+  ## Questions\n
+  If you have further questions or would like to see more features, please contact me via github or email:
+
   https://github.com/${userInputs.github_userid} \n
   ${userInputs.email}\n
   `;
