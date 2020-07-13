@@ -1,79 +1,70 @@
+![Code Count](https://img.shields.io/github/languages/count/bdcoelho/readme-generator)
+![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/readme-generator)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-1.0-red)
+![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/readme-generator)
+![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/readme-generator)
+![Repo Size](https://img.shields.io/github/repo-size/bdcoelho/readme-generator)
 
-  ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/readme-generator) 
-  ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/readme-generator) 
-  ![License](https://img.shields.io/badge/license-MIT-blue) 
-  ![Version](https://img.shields.io/badge/version-1.0-red) 
-  ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/readme-generator) 
-  ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/readme-generator) 
-  ![Repo Size](https://img.shields.io/github/repo-size/bdcoelho/readme-generator)
+# Welcome to Readme Generator
 
-  # Welcome to Readme Generator
+## Table of Contents
 
+- [Welcome to Readme Generator](#welcome-to-readme-generator)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Demonstration](#demonstration)
+      - [A screenshot of the typical terminal workflow.](#a-screenshot-of-the-typical-terminal-workflow)
+  - [Setup](#setup)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributions](#contributions)
+  - [Version](#version)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-  ## Table of Contents
+## Description
 
-  * [Description](#Description)
-  * [Demonstration](#Demonstration)
-  * [Setup](#Setup)
-  * [Usage](#Usage)
-  * [License](#License)
-  * [Contributions](#Contributions)
-  * [Version](#Version)
-  * [Tests](#Tests)
-  * [Questions](#Questions)
+An application to conveniently generate a professional looking readme file for a project. Readme files are an important way to present applications to users in a professional manner. This application will simplifiy the process of creating a readme by prompting the user to enter information under predefined headings and generating a professionally formatted readme document.
 
+## Demonstration
 
-  ## Description
+View a live demonstration [here](https://www.youtube.com/watch?v=zk3hq5gjibU&feature=youtu.be).
 
-  An application to conveniently generate a professional looking readme file for a project. Readme files are an important way to present applications to users in a professional manner. This application will simplifiy the process of creating a readme by prompting the user to enter information under predefined headings and generating a professionally formatted readme document.
+#### A screenshot of the typical terminal workflow.
 
+![Terminal Prompt](./assets/img/screenshot.png "Terminal Prompt")
 
-  ## Demonstration
+## Setup
 
-  View a live demonstration [here](https://www.youtube.com/watch?v=zk3hq5gjibU&feature=youtu.be).
+Use git clone with either HTTPS or SSH key (if you have it set up) to clone the repository. Run 'npm install' to install required packages.
 
-  #### A screenshot of the typical terminal workflow.
+## Usage
 
-  ![Terminal Prompt](./assets/img/screenshot.png "Terminal Prompt")
+When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
 
+## License
 
-  ## Setup
+![License Badge](https://img.shields.io/badge/license-MIT-blue)
 
-    Use git clone with either HTTPS or SSH key (if you have it set up) to clone the repository. Run 'npm install' to install required packages.
+You may utilize this application under the terms of the [MIT license](assets/licences/MIT.txt).
 
+## Contributions
 
-  ## Usage
+When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
 
-    When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+## Version
 
+![Version Badge](https://img.shields.io/badge/version-1.0-red)
 
-  ## License
+## Tests
 
-  ![License Badge](https://img.shields.io/badge/license-MIT-blue)
+No tests currently available.
 
-  You may utilize this application under the terms of the [MIT license](assets/licences/MIT.txt).
+## Questions
 
-  ## Contributions
+If you have further questions or would like to see more features, please contact me via github or email:
 
-    When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+https://github.com/bdcoelho
 
-
-
-  ## Version
-
-  ![Version Badge](https://img.shields.io/badge/version-1.0-red)
-
-
-  ## Tests
-
-    No tests currently available.
-
-  ## Questions
-
-  If you have further questions or would like to see more features, please contact me via github or email:
-
-  https://github.com/bdcoelho 
-
-  ben_coelho@hotmail.com
-
-  
+ben_coelho@hotmail.com
