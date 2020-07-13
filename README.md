@@ -29,7 +29,7 @@ An application to conveniently generate a professional looking readme file for a
 
 ## Demonstration
 
-View a live demonstration [here](https://www.youtube.com/watch?v=zk3hq5gjibU&feature=youtu.be).
+View a live demonstration [here](https://drive.google.com/file/d/1et8jWJ54F7A30qmXfTaqpxLpw_9elETJ/view).
 
 #### A screenshot of the typical terminal workflow.
 
