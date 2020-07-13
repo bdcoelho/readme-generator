@@ -19,6 +19,7 @@
   * [License](#License)
   * [Contributions](#Contributions)
   * [Version](#Version)
+  * [Tests](#Tests)
   * [Questions](#Questions)
 
 
@@ -51,12 +52,13 @@
 
   When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
 
-
-
   ## Version
 
   ![Version Badge](https://img.shields.io/badge/version-1.0-red)
 
+  ## Tests
+
+  No tests currently available.
 
   ## Questions
 

@@ -108,6 +108,7 @@ function readmeGen(userInputs) {
   * [License](#License)
   * [Contributions](#Contributions)
   * [Version](#Version)
+  * [Tests](#Tests)
   * [Questions](#Questions)
 
 
@@ -142,6 +143,10 @@ function readmeGen(userInputs) {
     userInputs.version
   }-red)\n
 
+  ## Tests
+
+  No tests currently available.
+  
   ## Questions\n
   If you have further questions or would like to see more features, please contact me via github or email:
 
