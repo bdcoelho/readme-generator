@@ -27,23 +27,7 @@ function promptUser() {
       name: "setup",
       message: "How can a user install this application?",
     },
-    {
-      type: "input",
-      name: "github_userid",
-      message: "Please enter your Github username",
-    },
-    {
-      type: "input",
-      name: "github_repo",
-      message: "Please enter the name of the repository",
-    },
-    {
-      type: "input",
-      name: "email",
-      message: "Please enter your email address",
-    },
-
-
+  
 
     {
       type: "input",
@@ -61,32 +45,54 @@ function promptUser() {
       name: "version",
       message: "Enter the version of the application",
     },
+
+    {
+      type: "input",
+      name: "contributions",
+      message: "How can other users contribute to this project",
+    },
+    {
+      type: "input",
+      name: "github_userid",
+      message: "Please enter your Github username",
+    },
+    {
+      type: "input",
+      name: "github_rp",
+      message: "Please enter the name of the repository",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please enter your email address",
+    },
+
   ]);
 }
 
 // function to generate the content required for the file being created
-function generateReadMe(userInputs) {
+function readmeGen(userInputs) {
   return `
   ![Code Count](https://img.shields.io/github/languages/count/${
     userInputs.github_userid
-  }/${userInputs.github_repo}) 
+  }/${userInputs.github_rp}) 
   ![Main Code Base](https://img.shields.io/github/languages/top/${
     userInputs.github_userid
-  }/${userInputs.github_repo}) 
+  }/${userInputs.github_rp}) 
   ![License](https://img.shields.io/badge/license-${userInputs.license}-blue) 
   ![Version](https://img.shields.io/badge/license-${userInputs.version}-red) 
   ![Last Commit](https://img.shields.io/github/last-commit/${
     userInputs.github_userid
-  }/${userInputs.github_repo}) 
+  }/${userInputs.github_rp}) 
   ![Open Issues](https://img.shields.io/github/issues-raw/${
     userInputs.github_userid
-  }/${userInputs.github_repo}) 
+  }/${userInputs.github_rp}) 
   ![Repo Size](https://img.shields.io/github/repo-size/${userInputs.github}/${
-    userInputs.github_repo
+    userInputs.github_rp
   })\n
   # Welcome to ${userInputs.title}\n
 
-  ## Table of Contents 🗂\n
+  ## Table of Contents\n
   * [Description](#Description)
   * [Setup](#Setup)
   * [Usage](#Usage)
@@ -97,8 +103,11 @@ function generateReadMe(userInputs) {
   ## Description\n
   ${userInputs.description}\n
 
+  ## Demonstration\n
+  View a live demonstration [here](./assets/img/demo.mp4)
+
   ## Setup\n
-  ${userInputs.Setup}\n
+  ${userInputs.setup}\n
 
   ## Usage\n
   ${userInputs.usage}\n
@@ -113,6 +122,10 @@ function generateReadMe(userInputs) {
       : `You may utilize this application under the terms of the [${userInputs.license} license](assets/licences/${userInputs.license}.txt).`
   }
 
+  ## Contributions\n
+  ${userInputs.usage}\n
+
+
   ## Version\n
   ![Version Badge](https://img.shields.io/badge/version-${
     userInputs.version
@@ -123,13 +136,13 @@ function generateReadMe(userInputs) {
   `;
 }
 
-async function init() {
+async function initialize() {
   try {
     // function pauses whilst gathering user data through the promptUser function and stores the data in "userInputs"
     const userInputs = await promptUser();
 
-    // the userInputs from above are passed into the generateReadMe function which is stored in "readme"
-    const readme = generateReadMe(userInputs);
+    // the userInputs from above are passed into the readmeGen function which is stored in "readme"
+    const readme = readmeGen(userInputs);
 
     // function pauses whilst writing the file with the content from "readme"
     await writeOutput("README_temp.md", readme);
@@ -142,4 +155,4 @@ async function init() {
   }
 }
 
-init();
+initialize();

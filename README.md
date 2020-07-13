@@ -1,19 +1,19 @@
 
-  ![Code Count](https://img.shields.io/github/languages/count/afd/afds) 
-  ![Main Code Base](https://img.shields.io/github/languages/top/afd/afds) 
+  ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/readme-generator) 
+  ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/readme-generator) 
   ![License](https://img.shields.io/badge/license-None-blue) 
-  ![Version](https://img.shields.io/badge/license--red) 
-  ![Last Commit](https://img.shields.io/github/last-commit/afd/afds) 
-  ![Open Issues](https://img.shields.io/github/issues-raw/afd/afds) 
-  ![Repo Size](https://img.shields.io/github/repo-size/afd/afds)
+  ![Version](https://img.shields.io/badge/license-1.0-red) 
+  ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/readme-generator) 
+  ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/readme-generator) 
+  ![Repo Size](https://img.shields.io/github/repo-size/undefined/readme-generator)
 
-  # Welcome to dfsa
+  # Welcome to Readme Generator
 
 
-  ## Table of Contents 🗂
+  ## Table of Contents
 
   * [Description](#Description)
-  * [Installation](#Installation)
+  * [Setup](#Setup)
   * [Usage](#Usage)
   * [License](#License)
   * [Version](#Version)
@@ -21,17 +21,21 @@
 
   ## Description
 
-  dfas
+  An application to conveniently generate a professional looking readme file for a project. Readme files are an important way to present applications to users in a professional manner. This application will simplifiy the process of creating a readme by prompting the user to enter information under predefined headings and generating a professionally formatted readme document.
 
 
-  ## Installation
+  ## Demonstration
 
-  fdsa
+  View a live demonstration [here](./assets/img/demo.mp4)
+
+  ## Setup
+
+  Use git clone with either HTTPS or SSH key (if you have it set up) to clone the repository. Run 'npm install' to install required packages.
 
 
   ## Usage
 
-  fds
+  When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
 
 
   ## License
@@ -40,13 +44,19 @@
 
   This application may be used freely without a license.
 
+  ## Contributions
+
+  When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+
+
+
   ## Version
 
-  ![Version Badge](https://img.shields.io/badge/version--red)
+  ![Version Badge](https://img.shields.io/badge/version-1.0-red)
 
 
-  https://github.com/afd 
+  https://github.com/bdcoelho 
 
-  fdsa
+  ben_coelho@hotmail.com
 
   
