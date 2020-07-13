@@ -2,10 +2,10 @@
   ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/readme-generator) 
   ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/readme-generator) 
   ![License](https://img.shields.io/badge/license-None-blue) 
-  ![Version](https://img.shields.io/badge/license-1.0-red) 
+  ![Version](https://img.shields.io/badge/version-1.0-red) 
   ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/readme-generator) 
   ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/readme-generator) 
-  ![Repo Size](https://img.shields.io/github/repo-size/undefined/readme-generator)
+  ![Repo Size](https://img.shields.io/github/repo-size/bdcoelho/readme-generator)
 
   # Welcome to Readme Generator
 

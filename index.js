@@ -80,14 +80,14 @@ function readmeGen(userInputs) {
     userInputs.github_userid
   }/${userInputs.github_rp}) 
   ![License](https://img.shields.io/badge/license-${userInputs.license}-blue) 
-  ![Version](https://img.shields.io/badge/license-${userInputs.version}-red) 
+  ![Version](https://img.shields.io/badge/version-${userInputs.version}-red) 
   ![Last Commit](https://img.shields.io/github/last-commit/${
     userInputs.github_userid
   }/${userInputs.github_rp}) 
   ![Open Issues](https://img.shields.io/github/issues-raw/${
     userInputs.github_userid
   }/${userInputs.github_rp}) 
-  ![Repo Size](https://img.shields.io/github/repo-size/${userInputs.github}/${
+  ![Repo Size](https://img.shields.io/github/repo-size/${userInputs.github_userid}/${
     userInputs.github_rp
   })\n
   # Welcome to ${userInputs.title}\n
