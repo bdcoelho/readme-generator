@@ -1,7 +1,7 @@
 
   ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/readme-generator) 
   ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/readme-generator) 
-  ![License](https://img.shields.io/badge/license-None-blue) 
+  ![License](https://img.shields.io/badge/license-MIT-blue) 
   ![Version](https://img.shields.io/badge/version-1.0-red) 
   ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/readme-generator) 
   ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/readme-generator) 
@@ -40,9 +40,9 @@
 
   ## License
 
-  ![License Badge](https://img.shields.io/badge/license-None-blue)
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue)
 
-  This application may be used freely without a license.
+  You may utilize this application under the terms of the [MIT license](assets/licences/MIT.txt).
 
   ## Contributions
 
