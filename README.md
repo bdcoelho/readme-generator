@@ -10,18 +10,15 @@
 
 ## Table of Contents
 
-- [Welcome to Readme Generator](#welcome-to-readme-generator)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Demonstration](#demonstration)
-      - [A screenshot of the typical terminal workflow.](#a-screenshot-of-the-typical-terminal-workflow)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributions](#contributions)
-  - [Version](#version)
-  - [Tests](#tests)
-  - [Questions](#questions)
+  * [Description](#Description)
+  * [Demonstration](#Demonstration)
+  * [Setup](#Setup)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributions](#Contributions)
+  * [Version](#Version)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
 ## Description
 
