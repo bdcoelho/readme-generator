@@ -50,7 +50,7 @@
 
   ## Contributions
 
-  When working on terminal in the application directory, type 'node index.js'. The user will then receive a series of prompts corresponding to the sections of the readme document.
+  Users wishing to contribute may make a pull request explaining the improvements or fixes. I will review and approve them as necessary.
 
   ## Version
 
