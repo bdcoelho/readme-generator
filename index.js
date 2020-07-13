@@ -22,6 +22,14 @@ function promptUser() {
       name: "description",
       message: "Project description",
     },
+
+    {
+      type: "input",
+      name: "demo",
+      message: "Add a link to a demonstration",
+    },
+
+
     {
       type: "input",
       name: "setup",
@@ -104,7 +112,7 @@ function readmeGen(userInputs) {
   ${userInputs.description}\n
 
   ## Demonstration\n
-  View a live demonstration [here](./assets/img/demo.mp4)
+  View a live demonstration [here](${userInputs.demo}).
 
   ## Setup\n
   ${userInputs.setup}\n
