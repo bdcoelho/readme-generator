@@ -61,6 +61,11 @@ function promptUser() {
     },
     {
       type: "input",
+      name: "tests",
+      message: "Please list any tests available.",
+    },
+    {
+      type: "input",
       name: "github_userid",
       message: "Please enter your Github username",
     },
@@ -145,8 +150,8 @@ function readmeGen(userInputs) {
 
   ## Tests
 
-  No tests currently available.
-  
+  ${userInputs.tests}
+
   ## Questions\n
   If you have further questions or would like to see more features, please contact me via github or email:
 
