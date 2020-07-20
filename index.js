@@ -140,7 +140,7 @@ function readmeGen(userInputs) {
   }
 
   ## Contributions\n
-  ${userInputs.usage}\n
+  ${userInputs.contributions}\n
 
 
   ## Version\n
